@@ -13,23 +13,32 @@
   --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
 }
 *{
-    margin:0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 } 
   h1,h2,h3,h4,h5{
     font-family: 'Marcellus', serif;
 }
-nav{
+header{
     display: flex;
-    align-items: center;
+    background-color: var(--azulnegro);
     justify-content: space-between;
-    background-color: var(--negro);
-    font-family: 'Marcellus', serif;
-    font-size: 1.3em;
+    align-items: center;
     padding: 1rem;
+
+}
+.logo img {
+    width: 150px;
+}
+nav a{
+    font-family: 'Marcellus', serif;
+    
 }
 .item{
     padding: 1rem;
